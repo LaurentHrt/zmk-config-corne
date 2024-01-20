@@ -65,8 +65,8 @@
 
             bindings = <
 &none  &a_accent_grave  &e_accent_grave  &e_accent_circ  &e_accent_aigu  &kp LS(LA(NUMBER_2))    &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp ASTERISK
-&none  &kp EXCLAMATION  &kp AMPERSAND    &kp HASH        &kp AT_SIGN     &kp DOLLAR              &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp GRAVE
-&none  &kp QUESTION     &kp CARET        &kp LA(LS(C))   &kp PERCENT     &kp BACKSLASH           &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS          &kp UNDERSCORE     &kp TILDE
+&none  &kp EXCLAMATION  &kp AMPERSAND    &kp CARET       &kp DOLLAR      &kp AT                  &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp GRAVE
+&none  &kp QUESTION     &kp HASH         &kp LA(LS(C))   &kp PERCENT     &kp BACKSLASH           &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS          &kp UNDERSCORE     &kp TILDE
                                          &none           &trans          &trans                  &trans     &trans                &none
             >;
         };
