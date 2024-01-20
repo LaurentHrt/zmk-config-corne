@@ -15,6 +15,27 @@
             bindings = <&kp LA(E) &kp E>;
             label = "E_ACCENT_AIGU";
         };
+
+        e_accent_grave: e_accent_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(GRAVE) &kp E>;
+            label = "E_ACCENT_GRAVE";
+        };
+
+        e_accent_circ: e_accent_circ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(I) &kp E>;
+            label = "E_ACCENT_CIRC";
+        };
+
+        a_accent_grave: a_accent_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(GRAVE) &kp A>;
+            label = "A_ACCENT_GRAVE";
+        };
     };
 
     keymap {
@@ -43,10 +64,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp A            &kp E          &kp E     &e_accent_aigu  &kp E            &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp ASTERISK
-&none  &kp EXCLAMATION  &kp AMPERSAND  &kp HASH  &kp AT_SIGN     &kp DOLLAR       &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp GRAVE
-&none  &kp QUESTION     &kp CARET      &kp C     &kp PERCENT     &kp BACKSLASH    &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS          &kp UNDERSCORE     &kp TILDE
-                                       &none     &trans          &trans           &trans     &trans                &none
+&none  &a_accent_grave  &e_accent_grave  &e_accent_circ  &e_accent_aigu  &kp E            &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp ASTERISK
+&none  &kp EXCLAMATION  &kp AMPERSAND    &kp HASH        &kp AT_SIGN     &kp DOLLAR       &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp GRAVE
+&none  &kp QUESTION     &kp CARET        &kp LA(C)       &kp PERCENT     &kp BACKSLASH    &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS          &kp UNDERSCORE     &kp TILDE
+                                         &none           &trans          &trans           &trans     &trans                &none
             >;
         };
 
