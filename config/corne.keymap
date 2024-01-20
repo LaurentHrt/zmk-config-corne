@@ -53,10 +53,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp A            &kp E          &kp E     &kp E        &kp E            &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp ASTERISK
-&none  &kp EXCLAMATION  &kp AMPERSAND  &kp HASH  &kp AT_SIGN  &kp DOLLAR       &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp GRAVE
-&none  &kp QUESTION     &kp CARET      &kp C     &kp PERCENT  &kp BACKSLASH    &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS          &kp UNDERSCORE     &kp TILDE
-                                       &none     &trans       &kp SPACE        &kp RET    &trans                &none
+&none  &kp NUMBER_0     &kp N7         &kp E     &kp E        &kp LA(RIGHT_BRACKET)    &kp PLUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp ASTERISK
+&none  &kp EXCLAMATION  &kp AMPERSAND  &kp HASH  &kp AT_SIGN  &kp DOLLAR               &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp GRAVE
+&none  &kp QUESTION     &kp CARET      &kp N9    &kp PERCENT  &kp BACKSLASH            &kp EQUAL      &kp LESS_THAN         &kp GREATER_THAN       &kp MINUS          &kp UNDERSCORE     &kp TILDE
+                                       &none     &trans       &kp SPACE                &kp BACKSPACE  &trans                &none
             >;
         };
 
