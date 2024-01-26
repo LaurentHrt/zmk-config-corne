@@ -43,18 +43,18 @@
 
         default_layer {
             bindings = <
-&kp TAB       &kp A    &kp Z  &kp E           &kp R    &kp T        &kp Y      &kp U          &kp I      &kp O      &kp P      &kp SINGLE_QUOTE
-&kp ESCAPE    &lt 2 Q  &kp S  &lt 4 D         &lt 3 F  &kp G        &kp H      &kp J          &kp K      &kp L      &kp M      &kp BACKSPACE
-&kp LEFT_ALT  &kp W    &kp X  &kp C           &kp V    &kp B        &kp N      &kp COMMA      &kp DOT    &kp SLASH  &kp COLON  &kp SEMI
+&kp TAB       &kp A    &kp Z  &kp E           &kp R    &kp T        &kp Y      &kp U          &kp I      &kp O      &kp P     &kp SINGLE_QUOTE
+&kp ESCAPE    &lt 2 Q  &kp S  &lt 4 D         &lt 3 F  &kp G        &kp H      &kp J          &kp K      &kp L      &kp M     &kp BACKSPACE
+&kp LEFT_ALT  &kp W    &kp X  &kp C           &kp V    &kp B        &kp N      &kp COMMA      &kp DOT    &kp SLASH  &kp SEMI  &none
                               &kp LEFT_SHIFT  &mo 1    &kp SPACE    &kp ENTER  &kp RIGHT_GUI  &kp RCTRL
             >;
         };
 
         lower_layer {
             bindings = <
-&trans      &a_accent_grave  &e_accent_grave  &e_accent_aigu  &e_accent_circ  &kp LS(LA(NUMBER_2))    &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN   &kp ASTERISK
-&kp ESCAPE  &kp EXCLAMATION  &kp AMPERSAND    &kp CARET       &kp DOLLAR      &kp AT                  &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE
-&trans      &kp QUESTION     &kp HASH         &kp LA(C)       &kp PERCENT     &kp BACKSLASH           &kp EQUAL  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &kp UNDERSCORE     &kp TILDE
+&trans      &a_accent_grave  &e_accent_grave  &e_accent_aigu  &e_accent_circ  &kp LS(LA(NUMBER_2))    &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &none      &none           &kp ASTERISK
+&kp ESCAPE  &kp EXCLAMATION  &kp AT           &kp HASH        &kp AMPERSAND   &kp PERCENT             &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET  &kp DOLLAR      &kp GRAVE
+&trans      &none            &none            &kp LA(C)       &none           &kp BACKSLASH           &kp EQUAL  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS  &kp UNDERSCORE  &kp TILDE
                                               &trans          &none           &trans                  &trans     &trans                &trans
             >;
         };
