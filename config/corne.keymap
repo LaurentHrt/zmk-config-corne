@@ -53,8 +53,8 @@
 
         lower_layer {
             bindings = <
-&trans      &a_accent_grave  &e_accent_grave  &e_accent_aigu  &e_accent_circ  &kp LS(LA(NUMBER_2))    &kp KP_PLUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none          &none       &kp ASTERISK
-&kp ESCAPE  &kp EXCLAMATION  &kp AT           &kp HASH        &kp AMPERSAND   &kp PERCENT             &kp PIPE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp DOLLAR  &kp GRAVE
+&trans      &a_accent_grave  &e_accent_grave  &e_accent_aigu  &e_accent_circ  &kp LS(LA(NUMBER_2))    &kp KP_PLUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &none       &kp ASTERISK
+&kp ESCAPE  &kp EXCLAMATION  &kp AT           &kp HASH        &kp AMPERSAND   &kp PERCENT             &kp PIPE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp DOLLAR  &kp DEL
 &trans      &none            &none            &kp LA(C)       &none           &none                   &kp EQUAL    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp TILDE   &none
                                               &trans          &none           &trans                  &kp SPACE    &trans                &trans
             >;
